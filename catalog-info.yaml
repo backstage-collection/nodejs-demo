@@ -1,3 +1,16 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: API
+metadata:
+  name: nodejs-demo-api
+  description: The REST API for NodeJS Demo
+spec:
+  type: openapi
+  lifecycle: production
+  owner: group:default/developers
+  definition:
+    $openapi: ./openapi.json
+---
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
@@ -19,3 +32,5 @@ spec:
   type: service
   owner: group:default/developers
   lifecycle: experimental
+  providesApis:
+    - nodejs-demo-api
