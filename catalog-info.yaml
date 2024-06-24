@@ -7,8 +7,14 @@ metadata:
     department: enginering
   annotations:
     backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: backstage-collection/nodejs-demo
   tags:
     - javascript
+  links:
+    - url: https://admin.example-org.com
+      title: Admin Dashboard
+      icon: dashboard
+      type: admin-dashboard
 spec:
   type: service
   owner: group:default/developers
