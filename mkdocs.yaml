@@ -1,0 +1,10 @@
+site_name: NodeJS Demo
+docs_dir: docs
+plugings:
+  - techdocs-core
+
+nav:
+  - overview:
+    - What is NodeJS Demo: 'index.md'
+  - Installation and Configuration:
+    - Getting started: 'getting-started.md'
