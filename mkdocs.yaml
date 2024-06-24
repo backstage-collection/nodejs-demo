@@ -4,7 +4,7 @@ plugings:
   - techdocs-core
 
 nav:
-  - overview:
+  - Overview:
     - What is NodeJS Demo: 'index.md'
   - Installation and Configuration:
     - Getting started: 'getting-started.md'
