@@ -9,4 +9,4 @@ spec:
   lifecycle: production
   owner: group:default/developers
   definition:
-    $openapi: ./openapi.json
+    $text: ./openapi.json
