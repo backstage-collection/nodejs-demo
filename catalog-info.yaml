@@ -2,6 +2,8 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: "nodejs-demo"
+  annotations:
+    backstage.io/techdocs-red: dir:.
 spec:
   type: service
   owner: group:default/developers
