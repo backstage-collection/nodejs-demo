@@ -3,7 +3,7 @@ kind: Component
 metadata:
   name: "nodejs-demo"
   annotations:
-    backstage.io/techdocs-red: dir:.
+    backstage.io/techdocs-ref: dir:.
 spec:
   type: service
   owner: group:default/developers
