@@ -1,10 +1,15 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: "nodejs-demo"
+  name: nodejs-demo
+  description: NodeJS Demo
+  labels:
+    department: enginering
   annotations:
     backstage.io/techdocs-ref: dir:.
+  tags:
+    - javascript
 spec:
-  type: service
+  type: api
   owner: group:default/developers
   lifecycle: experimental
