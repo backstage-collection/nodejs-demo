@@ -13,7 +13,7 @@ Here's a step by step guide.
 First of all, you need to install Github CodeChecks app on repositories that you're interested using
 with CC.
 
-![Codechecks App](/images/getting-started/app.png)
+![Codechecks App](./images/getting-started/app.png)
 
 1. Log into our [web application](https://app.codechecks.io/) using Github.
 2. Click "Add new project" button
@@ -63,7 +63,7 @@ files with hashes. You might want to tweaks these paths depending on your file s
 
 We can dry run our config locally. Just type `yarn codechecks`. You should see something similar to:
 
-![localmode](/images/getting-started/localmode.png)
+![localmode](./images/getting-started/localmode.png)
 
 Notice that each status of the file is "new" because this is the very first time we run codechecks.
 
